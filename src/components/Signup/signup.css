@@ -1,0 +1,42 @@
+:root {
+  --white: #f0f2f5;
+  --blue: #1877f2;
+  --dkblue: #4287f5;
+  --green: #42b72a;
+  --dkgree: #55ab55;
+  --font-size: 2rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
+}
+
+.modal {
+  margin-top: 1rem;
+}
+.modal .quick {
+  font-size: 1rem;
+}
+.modal .modalHeader {
+  padding-bottom: 0;
+}
+
+.modal .modalFooter .modalBtnFooter {
+  margin-right: 9rem;
+  height: 50px;
+  width: 200px;
+  background-color: var(--green);
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-family: var(--sans);
+}
+
+.input {
+  display: flex;
+  flex-direction: row wrap;
+  margin: 0 0 1rem 0;
+  gap: 1rem;
+}
+.MobPass {
+  margin: 0 0 1rem 0;
+}
